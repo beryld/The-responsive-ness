@@ -5,6 +5,13 @@
 p{
     margin: 20px;
 }
+#lelien{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    padding-right: 20px;
+    margin-top: 30px;
+}
 /*For mobile phones*/
 @media only screen and (max-width: 479px){
     body{
