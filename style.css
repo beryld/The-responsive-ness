@@ -6,22 +6,27 @@ p{
     margin: 20px;
 }
 #lelien{
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     float: right;
     padding-right: 20px;
     margin-top: 30px;
 }
+
 /*For mobile phones*/
 @media only screen and (max-width: 479px){
     body{
-        background-color:#F38BA0;
+        background-color:#ffdde4;
 }
     #small{
         width: 80%;
         height: 25%;
         color: lightslategray;
-        font-size: 18px;
+        font-size: 16px;
         text-align: justify;
         margin: auto;
         padding: 30px;
@@ -29,7 +34,7 @@ p{
         border-color: #D7E9F7;
         border-style: solid;
         border-width: 4px;
-        border-radius: 50% / 5%;
+        border-radius:  5%;
         margin-top: 30px;
 
 }
@@ -50,18 +55,19 @@ p{
             display: none;
     }
         #medium{
-            width: 80%;
-            height: 25%;
+            width: 70vw;
+            height: 50vh;
             color:lightsteelblue;
             font-size: 17px;
             text-align: justify;
             margin: auto;
-            padding: 30px;
+            padding: 70px 15px;
+            padding-left: 30px;
             /*background-color: #FDFCE5;*/
-            border-color: lightpi;
-            border-style:solid;
+            border-color: lightpink;
+            border-style: solid;
             border-width: 4px;
-            border-radius: 5% / 50%;
+            border-radius: 5%;
             margin-top: 30px;
     }    
         #large{
@@ -81,17 +87,18 @@ p{
             display: none;
     }
         #large{
-            width: 80%;
+            width: 70vw;
+            height: 50vh;
             color:lightpink ;
-            font-size: 16px;
+            font-size: 18px;
             text-align: justify;
             margin: auto;
-            padding: 30px;
+            padding: 70px 30px 30px 30px;
             /*background-color: #EDF6E5;*/
             border-color: #EDF6E5;
             border-style: solid;
             border-width: 4px;
-            border-radius: 5% / 50%;
+            border-radius: 5% ;
             margin-top: 30px;
 
     }    
